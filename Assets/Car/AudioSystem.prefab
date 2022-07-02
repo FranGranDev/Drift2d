@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8994472902777582965
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6216395348673178271}
+  - component: {fileID: 6340475760599840267}
+  m_Layer: 0
+  m_Name: AudioSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6216395348673178271
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8994472902777582965}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -127.17274, y: -175.20851, z: -10.804678}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6340475760599840267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8994472902777582965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b21079be1cfbee643b627cafac1ee71d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound:
+  - name: Drift
+    Audio: {fileID: 8300000, guid: d86436c644b8d31438d64963477b2fe4, type: 3}
+    Volume: 0.512
+    Pitch: 1
+    loop: 1
+  - name: NewRecord
+    Audio: {fileID: 8300000, guid: 8bc310c494f74e446900b95829eb7105, type: 3}
+    Volume: 0.33
+    Pitch: 1
+    loop: 0
+  - name: Crush
+    Audio: {fileID: 8300000, guid: 9b74529336b253d40910562c18e54819, type: 3}
+    Volume: 0.75
+    Pitch: 1
+    loop: 0
+  - name: Hit
+    Audio: {fileID: 8300000, guid: 5ad29c228f078974cb6104ae75c39555, type: 3}
+    Volume: 1
+    Pitch: 1
+    loop: 0
+  - name: Drift
+    Audio: {fileID: 8300000, guid: d86436c644b8d31438d64963477b2fe4, type: 3}
+    Volume: 0.6
+    Pitch: 1
+    loop: 1
+  - name: EngineStart
+    Audio: {fileID: 8300000, guid: e4a6366523eaf7043a375289a581ad47, type: 3}
+    Volume: 0.5
+    Pitch: 1
+    loop: 0
+  - name: Click
+    Audio: {fileID: 8300000, guid: e6b1cce1067dd474fa3a1e0ae1512bf2, type: 3}
+    Volume: 0.25
+    Pitch: 1
+    loop: 0
+  - name: ClickBack
+    Audio: {fileID: 8300000, guid: 86afbcef6d8d1f1479bd9a6691556da9, type: 3}
+    Volume: 0.25
+    Pitch: 1
+    loop: 0
+  - name: Buy
+    Audio: {fileID: 8300000, guid: f7d69a74f7cbe794188a253ce4979c25, type: 3}
+    Volume: 0.5
+    Pitch: 1
+    loop: 0
+  - name: NoMoney
+    Audio: {fileID: 8300000, guid: d245adbe5907d314fadade88f2233bf6, type: 3}
+    Volume: 0.33
+    Pitch: 1
+    loop: 0
+  - name: GetMoney
+    Audio: {fileID: 8300000, guid: 3c01c7ab7a391454dae155b18c405d68, type: 3}
+    Volume: 0.5
+    Pitch: 1
+    loop: 0
+  - name: EnemyKilled
+    Audio: {fileID: 8300000, guid: fe6e75e49084eb94caf647090f595a30, type: 3}
+    Volume: 0.5
+    Pitch: 1
+    loop: 0
+  - name: LevelDone
+    Audio: {fileID: 8300000, guid: 9930da66a3a043a40bb07afab471d901, type: 3}
+    Volume: 0.5
+    Pitch: 1
+    loop: 0
+  - name: Music
+    Audio: {fileID: 8300000, guid: 659372c378691f543b318df641503154, type: 3}
+    Volume: 0.15
+    Pitch: 1
+    loop: 1
+  - name: GunFire
+    Audio: {fileID: 8300000, guid: 9d4aa27011c555e4c84851f51aeb68fc, type: 3}
+    Volume: 1
+    Pitch: 1
+    loop: 0
+  - name: BulletHit
+    Audio: {fileID: 8300000, guid: 9e8de910cf7f79c43917a0489e70772f, type: 3}
+    Volume: 1
+    Pitch: 1
+    loop: 0
+  - name: GoToTrack
+    Audio: {fileID: 8300000, guid: 801ac612f8e9d4f44a0fb81874d1e57b, type: 3}
+    Volume: 0.333
+    Pitch: 1
+    loop: 0
+  - name: GearUp
+    Audio: {fileID: 8300000, guid: fd7b6274444384447a629b88c4d58d79, type: 3}
+    Volume: 1
+    Pitch: 1
+    loop: 0
+  - name: GearDown
+    Audio: {fileID: 8300000, guid: b6b615e4c134e9e4cad36288a233f4af, type: 3}
+    Volume: 1
+    Pitch: 1
+    loop: 0
+  - name: MusicMenu
+    Audio: {fileID: 8300000, guid: 6bf04e1e089256644bae32febe162a52, type: 3}
+    Volume: 0.25
+    Pitch: 1
+    loop: 1
+  - name: MusicLevel0
+    Audio: {fileID: 8300000, guid: 62cc8d8d2ea12f544853f2e444214532, type: 3}
+    Volume: 0.25
+    Pitch: 1
+    loop: 1
+  - name: MusicLevel1
+    Audio: {fileID: 8300000, guid: d323e5cf317187f4db28625e61779245, type: 3}
+    Volume: 0.25
+    Pitch: 1
+    loop: 1
+  - name: MusicLevel2
+    Audio: {fileID: 8300000, guid: 650c81444d2c4944da2e52306fb56632, type: 3}
+    Volume: 0.25
+    Pitch: 1
+    loop: 1

@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 80ebcc91fa5b61849b5459c474b2d1a4
+  - enabled: 1
+    path: Assets/Scenes/Track0/Track0.unity
+    guid: a62459310b49d994f9c70182a9676f30
+  - enabled: 1
+    path: Assets/Scenes/Track0/Track0Survive.unity
+    guid: 9f17e205b4089ec4a951a712201ba171
+  - enabled: 1
+    path: Assets/Scenes/Track0/Track0Drift.unity
+    guid: b9a52cf1c1da8644eac503e36116ab32
+  - enabled: 1
+    path: Assets/Scenes/Special/FreeDrive0.unity
+    guid: e77130c99972d1a4fabab47e2d669169
+  - enabled: 1
+    path: Assets/Scenes/Special/Special0.unity
+    guid: 2aac2aae7e28517428ca43aabf2be8d6
+  - enabled: 1
+    path: Assets/Scenes/Track1/Track1.unity
+    guid: 62c95745fb363194b9671e12f2d3b969
+  - enabled: 1
+    path: Assets/Scenes/Track1/Track1ReversedWet.unity
+    guid: fa04d659890bfff499eb73a2f9208bed
+  - enabled: 1
+    path: Assets/Scenes/Track1/Track1Survive.unity
+    guid: 95c5e156c9f4f6d49930b6d78109a399
+  - enabled: 1
+    path: Assets/Scenes/Special/Delvery.unity
+    guid: cd66cf3975d07424190e99b9035d59fb
+  - enabled: 1
+    path: Assets/Scenes/Special/SuperDrift.unity
+    guid: b212467470e125440acbb628aae40000
+  - enabled: 1
+    path: Assets/Scenes/Track0/Track0Special.unity
+    guid: b249b316e7d2e744c8654bb03eac7cf6
+  - enabled: 1
+    path: Assets/Scenes/Track1/Track1Rally.unity
+    guid: 2cad9ea8dc70b944d962e588e784d497
+  - enabled: 1
+    path: Assets/Scenes/Track2/Track2.unity
+    guid: 5d72cab2c32cab847a8adda007686c63
+  - enabled: 1
+    path: Assets/Scenes/Track2/Track2Survive.unity
+    guid: ff3889d4d5a47e544b2a017f18d3adc7
+  - enabled: 1
+    path: Assets/Scenes/Track2/Track2Drift.unity
+    guid: 814a6a31b73cada4e8e71bbb881aca70
+  - enabled: 1
+    path: Assets/Scenes/Track2/Track2Rally.unity
+    guid: 8dbf62e82e7c88f438b1e32780d597ab
+  - enabled: 1
+    path: Assets/Scenes/Track3/Track3.unity
+    guid: 6cee8f7100b7e914da8543ec974da608
+  - enabled: 1
+    path: Assets/Scenes/Track3/Track3Rally.unity
+    guid: c5d90ae0c39c373499a63df5d9f2d77d
+  - enabled: 1
+    path: Assets/Scenes/Track3/Track3Drift.unity
+    guid: 1d451852a92d1f04cb62be8eb44dbdf1
+  - enabled: 1
+    path: Assets/Scenes/Track3/Track3Survive.unity
+    guid: 74793f775abee6d4a9b69bacd8357a81
+  - enabled: 1
+    path: Assets/Scenes/Track1/Track1Drift.unity
+    guid: f4231d408b6891042a176b8fbf51cbac
+  m_configObjects: {}

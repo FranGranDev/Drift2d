@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id">
+  <string name="gcm_defaultSenderId" translatable="false">208301959345</string>
+  <string name="google_storage_bucket" translatable="false">royale-racing-drift-game.appspot.com</string>
+  <string name="project_id" translatable="false">royale-racing-drift-game</string>
+  <string name="google_api_key" translatable="false">AIzaSyDZHrcdP61909NDGKKnEMyTJVWuG7O5nCs</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDZHrcdP61909NDGKKnEMyTJVWuG7O5nCs</string>
+  <string name="google_app_id" translatable="false">1:208301959345:android:f04445207aec5bac6d9a90</string>
+  <string name="default_web_client_id" translatable="false">208301959345-oj9geaj4hp7as9jsap7ms9tcjhrpglu2.apps.googleusercontent.com</string>
+</resources>

@@ -1,0 +1,1510 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7652498112070629265
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7652498112070629263}
+  - component: {fileID: 7652498112070629262}
+  - component: {fileID: 9046868069124093586}
+  - component: {fileID: 6588991656508388887}
+  m_Layer: 0
+  m_Name: GameData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7652498112070629263
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7652498112070629265}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 435.83005, y: 580.6006, z: -739.72766}
+  m_LocalScale: {x: 29.45, y: 29.45, z: 29.45}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7652498112070629262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7652498112070629265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7f1a415357cd3f44b344e4103dd47ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cars:
+  - name: Standart
+    NeedToBuy: 
+    Description: Just a car, no more
+    Index: 0
+    car: {fileID: 8095697898327031274, guid: d0898235d92c31f4a88f0e65cba19795, type: 3}
+    Parking: 0
+    opened: 1
+    cost: 5000
+    Premium: 0
+    Difficulty: 0
+    MoneyRatio: 1
+    color: {r: 0.8806687, g: 0.9245283, b: 0.21368816, a: 0}
+    Rare: 0
+    BuyCheck:
+      TermType: 0
+      value: 0
+      choice: 0
+      floatValue: 0
+  - name: Estate
+    NeedToBuy: 
+    Description: Ride with your family so fast
+    Index: 1
+    car: {fileID: 39840416362690560, guid: 6fb94372d0e5c1044862e41793e25b8f, type: 3}
+    Parking: 1
+    opened: 0
+    cost: 7500
+    Premium: 0
+    Difficulty: 1
+    MoneyRatio: 1
+    color: {r: 0.51739943, g: 0.6137002, b: 0.7264151, a: 0}
+    Rare: 0
+    BuyCheck:
+      TermType: 0
+      value: 0
+      choice: 0
+      floatValue: 0
+  - name: Mini Car
+    NeedToBuy: 
+    Description: Nice for busy City(car for girl)
+    Index: 2
+    car: {fileID: 3701863958608894744, guid: 1ff4825048022b84c920edb65effd4da, type: 3}
+    Parking: 2
+    opened: 0
+    cost: 5000
+    Premium: 0
+    Difficulty: 0
+    MoneyRatio: 1
+    color: {r: 0.8584906, g: 0.44949272, b: 0.44949272, a: 0}
+    Rare: 0
+    BuyCheck:
+      TermType: 0
+      value: 0
+      choice: 0
+      floatValue: 0
+  - name: SUV
+    NeedToBuy: Brake 00.25.00 On Rally Day 1
+    Description: Valim valim valim na gelike
+    Index: 3
+    car: {fileID: 1505690114746766768, guid: 4e7ed3af0e0184e42a1320bb5b312786, type: 3}
+    Parking: 3
+    opened: 0
+    cost: 15000
+    Premium: 0
+    Difficulty: 1
+    MoneyRatio: 1
+    color: {r: 0, g: 0, b: 0, a: 0}
+    Rare: 0
+    BuyCheck:
+      TermType: 3
+      value: 11
+      choice: 0
+      floatValue: 32
+  - name: PickUp
+    NeedToBuy: Brake 00.33.00 On Rally Day 2
+    Description: Hard worker, reliable, beautiful
+    Index: 4
+    car: {fileID: 15876443647761523, guid: af6e2489d4648764dbab0c950298fbc9, type: 3}
+    Parking: 6
+    opened: 0
+    cost: 12500
+    Premium: 0
+    Difficulty: 0
+    MoneyRatio: 1
+    color: {r: 0.4129417, g: 0.6509434, b: 0.11974903, a: 0}
+    Rare: 1
+    BuyCheck:
+      TermType: 3
+      value: 12
+      choice: 0
+      floatValue: 43
+  - name: Monster Bus
+    NeedToBuy: Done 5 Wave at Car Battle
+    Description: Bi bi
+    Index: 5
+    car: {fileID: 8015414010639224694, guid: 29b0801718c527f4e87b4f0b419cf1c0, type: 3}
+    Parking: 23
+    opened: 0
+    cost: 1337
+    Premium: 0
+    Difficulty: 2
+    MoneyRatio: 1
+    color: {r: 0, g: 0, b: 0, a: 0}
+    Rare: 2
+    BuyCheck:
+      TermType: 6
+      value: 4
+      choice: 5
+      floatValue: 0
+  - name: SportCar
+    NeedToBuy: 'Tip: Find it in City'
+    Description: So quick
+    Index: 6
+    car: {fileID: 1531889681390896292, guid: 864da461b277f434291a20d35d54a3c3, type: 3}
+    Parking: 9
+    opened: 0
+    cost: 55000
+    Premium: 0
+    Difficulty: 3
+    MoneyRatio: 1
+    color: {r: 0.8867924, g: 0.59370345, b: 0.06274474, a: 0}
+    Rare: 1
+    BuyCheck:
+      TermType: 0
+      value: 0
+      choice: 0
+      floatValue: 0
+  - name: Rally
+    NeedToBuy: Brake Time 00.28.00 On Suv On Rally Day 4
+    Description: Fast on track, on ground, no difference
+    Index: 7
+    car: {fileID: 901872539443974710, guid: eca71b4eff96c5b4ba4a647448b851ae, type: 3}
+    Parking: 15
+    opened: 0
+    cost: 75000
+    Premium: 0
+    Difficulty: 3
+    MoneyRatio: 1
+    color: {r: 0.07609467, g: 0.25879478, b: 0.8490566, a: 0}
+    Rare: 3
+    BuyCheck:
+      TermType: 3
+      value: 15
+      choice: 0
+      floatValue: 28
+  - name: GT
+    NeedToBuy: Get Sport Car to Open
+    Description: RACE!
+    Index: 8
+    car: {fileID: 6885333138528761007, guid: 329ed866afa8c064a9b7ac6a2d0e7ed9, type: 3}
+    Parking: 12
+    opened: 0
+    cost: 75000
+    Premium: 0
+    Difficulty: 2
+    MoneyRatio: 1
+    color: {r: 0.6587337, g: 0.9245283, b: 0.17007834, a: 0}
+    Rare: 2
+    BuyCheck:
+      TermType: 2
+      value: 6
+      choice: 0
+      floatValue: 0
+  - name: Old Racing Car
+    NeedToBuy: Buy Formula Young
+    Description: Grandfather of racing
+    Index: 9
+    car: {fileID: 7586688421141542476, guid: d4d95df420a65d04d9e5c35ca6f91114, type: 3}
+    Parking: 10
+    opened: 0
+    cost: 75000
+    Premium: 0
+    Difficulty: 4
+    MoneyRatio: 1
+    color: {r: 0.11792453, g: 0.4716981, b: 0.123300165, a: 0}
+    Rare: 2
+    BuyCheck:
+      TermType: 2
+      value: 10
+      choice: 0
+      floatValue: 0
+  - name: Formula Young
+    NeedToBuy: Brake Time 00.12.00 On Track Day 1
+    Description: Almost Royale Racing
+    Index: 10
+    car: {fileID: 8208835917934730981, guid: 303dc664602296447a076912d21e0df0, type: 3}
+    Parking: 8
+    opened: 0
+    cost: 55000
+    Premium: 0
+    Difficulty: 4
+    MoneyRatio: 1
+    color: {r: 0.9433962, g: 0.6363475, b: 0.87957877, a: 0}
+    Rare: 1
+    BuyCheck:
+      TermType: 3
+      value: 0
+      choice: 0
+      floatValue: 12.5
+  - name: Formula
+    NeedToBuy: Buy Old Formula to open
+    Description: Royale Racing
+    Index: 11
+    car: {fileID: 1802913760791743681, guid: 59dd8fc6a95181542a54dee436126c43, type: 3}
+    Parking: 16
+    opened: 0
+    cost: 500000
+    Premium: 0
+    Difficulty: 4
+    MoneyRatio: 1
+    color: {r: 0.8773585, g: 0, b: 0, a: 0}
+    Rare: 3
+    BuyCheck:
+      TermType: 2
+      value: 10
+      choice: 0
+      floatValue: 0
+  - name: Luxury Car
+    NeedToBuy: 'Tip:  Better find it in city'
+    Description: You rich
+    Index: 12
+    car: {fileID: 2625504290732239450, guid: 8562ded283b7dee4fa57e7a8907d7bf2, type: 3}
+    Parking: 7
+    opened: 0
+    cost: 43999
+    Premium: 0
+    Difficulty: 1
+    MoneyRatio: 1.5
+    color: {r: 0, g: 0, b: 0, a: 0}
+    Rare: 1
+    BuyCheck:
+      TermType: 0
+      value: 0
+      choice: 0
+      floatValue: 0
+  - name: Buggy
+    NeedToBuy: 
+    Description: Handmade
+    Index: 13
+    car: {fileID: 5416876483200946838, guid: 979ccfc8380425447909106174aa2851, type: 3}
+    Parking: 4
+    opened: 0
+    cost: 2500
+    Premium: 0
+    Difficulty: 0
+    MoneyRatio: 1
+    color: {r: 0, g: 0, b: 0, a: 0}
+    Rare: 0
+    BuyCheck:
+      TermType: 0
+      value: 0
+      choice: 0
+      floatValue: 0
+  - name: Limousine
+    NeedToBuy: Get Luxury Car
+    Description: Can it turn?
+    Index: 14
+    car: {fileID: 2746970890734827223, guid: 6692216fa90e9b840b7632098a87f69c, type: 3}
+    Parking: 21
+    opened: 0
+    cost: 75000
+    Premium: 0
+    Difficulty: 2
+    MoneyRatio: 2
+    color: {r: 1, g: 1, b: 1, a: 0}
+    Rare: 1
+    BuyCheck:
+      TermType: 0
+      value: 12
+      choice: 0
+      floatValue: 0
+  - name: Dragster
+    NeedToBuy: Open all Special Tracks
+    Description: Oof...
+    Index: 15
+    car: {fileID: 2405833066794276426, guid: d9d4cfdfcfe61534682c421bf515235b, type: 3}
+    Parking: 25
+    opened: 0
+    cost: 0
+    Premium: 0
+    Difficulty: 5
+    MoneyRatio: 1
+    color: {r: 0.7924528, g: 0.71913636, b: 0.6242435, a: 0}
+    Rare: 2
+    BuyCheck:
+      TermType: 8
+      value: 0
+      choice: 0
+      floatValue: 0
+  - name: Drift Car
+    NeedToBuy: Set 10/10 or more at Drift Track 3
+    Description: Take a turn most beautiful way
+    Index: 16
+    car: {fileID: 927172736274711862, guid: 0265a53e8d6846a4f99b6e88deeed3f9, type: 3}
+    Parking: 14
+    opened: 0
+    cost: 125000
+    Premium: 0
+    Difficulty: 3
+    MoneyRatio: 1
+    color: {r: 0.7830189, g: 0.033241354, b: 0.4582815, a: 0}
+    Rare: 3
+    BuyCheck:
+      TermType: 7
+      value: 16
+      choice: 0
+      floatValue: 10
+  - name: Millitary Car
+    NeedToBuy: Win  Car Battle
+    Description: Soviet Infantry Vehicle
+    Index: 17
+    car: {fileID: 7235196503864656277, guid: c43b97b5cc4ecf64a963036d97bcbaff, type: 3}
+    Parking: 17
+    opened: 0
+    cost: 1991
+    Premium: 0
+    Difficulty: 1
+    MoneyRatio: 1
+    color: {r: 0, g: 0, b: 0, a: 0}
+    Rare: 3
+    BuyCheck:
+      TermType: 6
+      value: 4
+      choice: 9
+      floatValue: 0
+  - name: Musle Car
+    NeedToBuy: Set 10/10 or more on Drift Track 1
+    Description: Muscle and Power
+    Index: 18
+    car: {fileID: 9119483334239765148, guid: 4c7e6a9d47bf0c7469601eeb9327e239, type: 3}
+    Parking: 11
+    opened: 0
+    cost: 35000
+    Premium: 0
+    Difficulty: 3
+    MoneyRatio: 1
+    color: {r: 1, g: 0.5046427, b: 0, a: 0}
+    Rare: 2
+    BuyCheck:
+      TermType: 7
+      value: 2
+      choice: 0
+      floatValue: 10
+  - name: 'DriftLada '
+    NeedToBuy: Set 10/10 or more on Drift Track 1
+    Description: Muscle and Power
+    Index: 19
+    car: {fileID: 2009325119557537640, guid: ca7ab36ce2c9674499cb98f3606d2afa, type: 3}
+    Parking: 26
+    opened: 0
+    cost: 0
+    Premium: 1
+    Difficulty: 3
+    MoneyRatio: 2
+    color: {r: 1, g: 0.5046427, b: 0, a: 0}
+    Rare: 4
+    BuyCheck:
+      TermType: 0
+      value: 2
+      choice: 0
+      floatValue: 10
+  - name: EliteRacingCar
+    NeedToBuy: Set 10/10 or more on Drift Track 1
+    Description: Muscle and Power
+    Index: 20
+    car: {fileID: 1194802726349163034, guid: 93a31768e2a031c479f1ac91f5580f6a, type: 3}
+    Parking: 27
+    opened: 0
+    cost: 0
+    Premium: 1
+    Difficulty: 3
+    MoneyRatio: 2
+    color: {r: 1, g: 0.5046427, b: 0, a: 0}
+    Rare: 4
+    BuyCheck:
+      TermType: 0
+      value: 2
+      choice: 0
+      floatValue: 10
+  - name: Delorean
+    NeedToBuy: Set 10/10 or more on Drift Track 1
+    Description: Muscle and Power
+    Index: 21
+    car: {fileID: 6286508560335018181, guid: 0a9802a272b12f84289da21a64300354, type: 3}
+    Parking: 28
+    opened: 0
+    cost: 0
+    Premium: 1
+    Difficulty: 3
+    MoneyRatio: 2
+    color: {r: 1, g: 0.5046427, b: 0, a: 0}
+    Rare: 4
+    BuyCheck:
+      TermType: 0
+      value: 2
+      choice: 0
+      floatValue: 10
+  - name: Test
+    NeedToBuy: Set 10/10 or more on Drift Track 1
+    Description: Muscle and Power
+    Index: 22
+    car: {fileID: 9119483334239765148, guid: 4c7e6a9d47bf0c7469601eeb9327e239, type: 3}
+    Parking: -1
+    opened: 0
+    cost: 0
+    Premium: 0
+    Difficulty: 3
+    MoneyRatio: 0
+    color: {r: 1, g: 0.5046427, b: 0, a: 0}
+    Rare: 2
+    BuyCheck:
+      TermType: 7
+      value: 2
+      choice: 0
+      floatValue: 10
+  Tracks:
+  - name: Track Day 1
+    NeedToBuy: 
+    Description: Brake your record!
+    TrackType: 0
+    opened: 1
+    Index: 0
+    Scene: 1
+    Place: 6
+    Cost: 0
+    Special: 0
+    Difficulty: 1
+    MoneyRatio: 1
+    LapToWin: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    DriftBest:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    MaxWave: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    NowRecord: 
+    MaxBattleRoyalePlace: 
+    BuyCheck:
+      TermType: 0
+      value: 0
+      choice: 0
+      floatValue: 0
+  - name: Survive Race 1
+    NeedToBuy: 
+    Description: Try drive to the end!
+    TrackType: 1
+    opened: 0
+    Index: 1
+    Scene: 2
+    Place: 7
+    Cost: 2500
+    Special: 0
+    Difficulty: 3
+    MoneyRatio: 1
+    LapToWin: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    DriftBest:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    MaxWave: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    NowRecord: 
+    MaxBattleRoyalePlace: 
+    BuyCheck:
+      TermType: 0
+      value: 0
+      choice: 0
+      floatValue: 0
+  - name: Drift Track 1
+    NeedToBuy: 
+    Description: Drive beautiful
+    TrackType: 2
+    opened: 0
+    Index: 2
+    Scene: 3
+    Place: 8
+    Cost: 2500
+    Special: 0
+    Difficulty: 2
+    MoneyRatio: 1
+    LapToWin: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    DriftBest:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    MaxWave: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    NowRecord: 
+    MaxBattleRoyalePlace: 
+    BuyCheck:
+      TermType: 0
+      value: 0
+      choice: 0
+      floatValue: 0
+  - name: Free Drive
+    NeedToBuy: 
+    Description: Do everything you want to!
+    TrackType: 3
+    opened: 1
+    Index: 3
+    Scene: 4
+    Place: 0
+    Cost: 0
+    Special: 1
+    Difficulty: 0
+    MoneyRatio: 0
+    LapToWin: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    DriftBest:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    MaxWave: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    NowRecord: 
+    MaxBattleRoyalePlace: 
+    BuyCheck:
+      TermType: 0
+      value: 0
+      choice: 0
+      floatValue: 0
+  - name: Car Battle
+    NeedToBuy: 
+    Description: Survive as much as you can
+    TrackType: 4
+    opened: 0
+    Index: 4
+    Scene: 5
+    Place: 1
+    Cost: 100000
+    Special: 1
+    Difficulty: 5
+    MoneyRatio: 5
+    LapToWin: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    DriftBest:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    MaxWave: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    NowRecord: 
+    MaxBattleRoyalePlace: 
+    BuyCheck:
+      TermType: 0
+      value: 0
+      choice: 0
+      floatValue: 0
+  - name: City Delivery
+    NeedToBuy: 
+    Description: Deliver package as fast as you can
+    TrackType: 5
+    opened: 0
+    Index: 5
+    Scene: 9
+    Place: 3
+    Cost: 20000
+    Special: 1
+    Difficulty: 5
+    MoneyRatio: 5
+    LapToWin: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    DriftBest:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    MaxWave: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    NowRecord: 
+    MaxBattleRoyalePlace: 
+    BuyCheck:
+      TermType: 0
+      value: 0
+      choice: 0
+      floatValue: 0
+  - name: Track Day 2
+    NeedToBuy: 
+    Description: Brake your record!
+    TrackType: 0
+    opened: 0
+    Index: 6
+    Scene: 6
+    Place: 9
+    Cost: 7500
+    Special: 0
+    Difficulty: 2
+    MoneyRatio: 2
+    LapToWin: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    DriftBest:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    MaxWave: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    NowRecord: 
+    MaxBattleRoyalePlace: 
+    BuyCheck:
+      TermType: 0
+      value: 0
+      choice: 0
+      floatValue: 0
+  - name: Wet Hardcore
+    NeedToBuy: Buy Track Day 2 to Open
+    Description: Brake your record!
+    TrackType: 0
+    opened: 0
+    Index: 7
+    Scene: 7
+    Place: 2
+    Cost: 25000
+    Special: 1
+    Difficulty: 5
+    MoneyRatio: 5
+    LapToWin: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    DriftBest:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    MaxWave: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    NowRecord: 
+    MaxBattleRoyalePlace: 
+    BuyCheck:
+      TermType: 1
+      value: 6
+      choice: 0
+      floatValue: 0
+  - name: Survive Race 2
+    NeedToBuy: Unlock Survive Race 1
+    Description: Brake your record!
+    TrackType: 1
+    opened: 0
+    Index: 8
+    Scene: 8
+    Place: 10
+    Cost: 5000
+    Special: 0
+    Difficulty: 4
+    MoneyRatio: 2
+    LapToWin: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    DriftBest:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    MaxWave: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    NowRecord: 
+    MaxBattleRoyalePlace: 
+    BuyCheck:
+      TermType: 1
+      value: 1
+      choice: 0
+      floatValue: 0
+  - name: Track Day 3
+    NeedToBuy: Unlock Track Day 2
+    Description: Brake your record!
+    TrackType: 0
+    opened: 0
+    Index: 9
+    Scene: 13
+    Place: 15
+    Cost: 12500
+    Special: 0
+    Difficulty: 4
+    MoneyRatio: 3
+    LapToWin: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    DriftBest:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    MaxWave: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    NowRecord: 
+    MaxBattleRoyalePlace: 
+    BuyCheck:
+      TermType: 1
+      value: 6
+      choice: 0
+      floatValue: 0
+  - name: Super Drift
+    NeedToBuy: 'You need open Drift Car to buy Track '
+    Description: Drift beautiful!
+    TrackType: 2
+    opened: 0
+    Index: 10
+    Scene: 10
+    Place: 4
+    Cost: 50000
+    Special: 1
+    Difficulty: 3
+    MoneyRatio: 3
+    LapToWin: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    DriftBest:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    MaxWave: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    NowRecord: 
+    MaxBattleRoyalePlace: 
+    BuyCheck:
+      TermType: 2
+      value: 16
+      choice: 0
+      floatValue: 0
+  - name: Rally Day 1
+    NeedToBuy: 
+    Description: Ride round
+    TrackType: 0
+    opened: 0
+    Index: 11
+    Scene: 11
+    Place: 13
+    Cost: 1500
+    Special: 0
+    Difficulty: 1
+    MoneyRatio: 2
+    LapToWin: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    DriftBest:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    MaxWave: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    NowRecord: 
+    MaxBattleRoyalePlace: 
+    BuyCheck:
+      TermType: 0
+      value: 16
+      choice: 0
+      floatValue: 0
+  - name: Rally Day 2
+    NeedToBuy: Open Rally Day 1
+    Description: Rally!
+    TrackType: 0
+    opened: 0
+    Index: 12
+    Scene: 12
+    Place: 14
+    Cost: 5000
+    Special: 0
+    Difficulty: 2
+    MoneyRatio: 3
+    LapToWin: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    DriftBest:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    MaxWave: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    NowRecord: 
+    MaxBattleRoyalePlace: 
+    BuyCheck:
+      TermType: 1
+      value: 11
+      choice: 0
+      floatValue: 0
+  - name: Drift Track 2
+    NeedToBuy: Unlock Drift Track 1
+    Description: Rally!
+    TrackType: 2
+    opened: 0
+    Index: 13
+    Scene: 21
+    Place: 11
+    Cost: 7500
+    Special: 0
+    Difficulty: 3
+    MoneyRatio: 2
+    LapToWin: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    DriftBest:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    MaxWave: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    NowRecord: 
+    MaxBattleRoyalePlace: 
+    BuyCheck:
+      TermType: 1
+      value: 2
+      choice: 0
+      floatValue: 0
+  - name: Survive Race 3
+    NeedToBuy: Unlock Survive Race 2
+    Description: Rally!
+    TrackType: 0
+    opened: 0
+    Index: 14
+    Scene: 14
+    Place: 16
+    Cost: 12500
+    Special: 0
+    Difficulty: 3
+    MoneyRatio: 3
+    LapToWin: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    DriftBest:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    MaxWave: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    NowRecord: 
+    MaxBattleRoyalePlace: 
+    BuyCheck:
+      TermType: 1
+      value: 8
+      choice: 0
+      floatValue: 0
+  - name: Rally Day 3
+    NeedToBuy: Open Rally Day 2
+    Description: Rally!
+    TrackType: 0
+    opened: 0
+    Index: 15
+    Scene: 16
+    Place: 17
+    Cost: 10000
+    Special: 0
+    Difficulty: 3
+    MoneyRatio: 4
+    LapToWin: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    DriftBest:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    MaxWave: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    NowRecord: 
+    MaxBattleRoyalePlace: 
+    BuyCheck:
+      TermType: 1
+      value: 12
+      choice: 0
+      floatValue: 0
+  - name: Drift Track 3
+    NeedToBuy: Unlock Drift Track 2
+    Description: Rally!
+    TrackType: 0
+    opened: 0
+    Index: 16
+    Scene: 15
+    Place: 18
+    Cost: 12500
+    Special: 0
+    Difficulty: 3
+    MoneyRatio: 3
+    LapToWin: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    DriftBest:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    MaxWave: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    NowRecord: 
+    MaxBattleRoyalePlace: 
+    BuyCheck:
+      TermType: 1
+      value: 13
+      choice: 0
+      floatValue: 0
+  - name: Track Day 4
+    NeedToBuy: Unlock Track Day 3
+    Description: Rally!
+    TrackType: 0
+    opened: 0
+    Index: 17
+    Scene: 17
+    Place: 19
+    Cost: 20000
+    Special: 0
+    Difficulty: 3
+    MoneyRatio: 4
+    LapToWin: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    DriftBest:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    MaxWave: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    NowRecord: 
+    MaxBattleRoyalePlace: 
+    BuyCheck:
+      TermType: 1
+      value: 9
+      choice: 0
+      floatValue: 0
+  - name: Rally Day 4
+    NeedToBuy: Open Rally Day 3
+    Description: Rally!
+    TrackType: 0
+    opened: 0
+    Index: 18
+    Scene: 18
+    Place: 20
+    Cost: 15000
+    Special: 0
+    Difficulty: 5
+    MoneyRatio: 5
+    LapToWin: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    DriftBest:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    MaxWave: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    NowRecord: 
+    MaxBattleRoyalePlace: 
+    BuyCheck:
+      TermType: 1
+      value: 15
+      choice: 0
+      floatValue: 0
+  - name: Survive Race 4
+    NeedToBuy: Unlock Survive Race 3
+    Description: Rally!
+    TrackType: 0
+    opened: 0
+    Index: 19
+    Scene: 20
+    Place: 21
+    Cost: 15000
+    Special: 0
+    Difficulty: 3
+    MoneyRatio: 4
+    LapToWin: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    DriftBest:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    MaxWave: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    NowRecord: 
+    MaxBattleRoyalePlace: 
+    BuyCheck:
+      TermType: 1
+      value: 14
+      choice: 0
+      floatValue: 0
+  - name: Drift Track 4
+    NeedToBuy: Unlock Drift Track 3
+    Description: Rally!
+    TrackType: 0
+    opened: 0
+    Index: 20
+    Scene: 19
+    Place: 22
+    Cost: 20000
+    Special: 0
+    Difficulty: 3
+    MoneyRatio: 4
+    LapToWin: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    DriftBest:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    MaxWave: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    NowRecord: 
+    MaxBattleRoyalePlace: 
+    BuyCheck:
+      TermType: 1
+      value: 16
+      choice: 0
+      floatValue: 0
+  Stores:
+  - name: DriftLada
+    id: ziguli
+    Open: 0
+    Index: 0
+    ProductIndex: 19
+    Types: 00000000
+    Cost: 1.99
+  - name: ElitRacingCar
+    id: hyper
+    Open: 0
+    Index: 1
+    ProductIndex: 20
+    Types: 00000000
+    Cost: 1.99
+  - name: Delorean
+    id: delorean
+    Open: 0
+    Index: 2
+    ProductIndex: 21
+    Types: 00000000
+    Cost: 1.99
+  - name: No Ads
+    id: ads_remove
+    Open: 0
+    Index: 3
+    ProductIndex: 0
+    Types: 01000000
+    Cost: 2.99
+  LoadInRow: 0
+  RevertInRow: 0
+  Ads: {fileID: 9046868069124093586}
+--- !u!114 &9046868069124093586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7652498112070629265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7fb137ba3c7bab4f96f7f6473a203a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AppId: ca-app-pub-8698419787299114~9025445104
+  VideoId: ca-app-pub-8698419787299114/4405850266
+  RewardedId: ca-app-pub-8698419787299114/7389793178
+  BannerId: ca-app-pub-8698419787299114/2290822811
+--- !u!114 &6588991656508388887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7652498112070629265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a09c29b86b4f84398ab0f5e21e82ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

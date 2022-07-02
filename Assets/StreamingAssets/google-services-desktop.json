@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "208301959345",
+    "project_id": "royale-racing-drift-game",
+    "storage_bucket": "royale-racing-drift-game.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208301959345:android:f04445207aec5bac6d9a90",
+        "android_client_info": {
+          "package_name": "com.FranGran.RoyaleRacing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208301959345-oj9geaj4hp7as9jsap7ms9tcjhrpglu2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZHrcdP61909NDGKKnEMyTJVWuG7O5nCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208301959345-oj9geaj4hp7as9jsap7ms9tcjhrpglu2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,390 @@
+{
+  "MainMenu": {
+    "GoTrack": "Go Track",
+    "GoSpecial": "Special Track",
+    "GoCarSelect": "Cars Select",
+    "GoSettings": "Settings",
+    "GoStore": "Elite Store",
+    "Tips": [
+      "Break before turning!",
+      "To drift buy a powerful car",
+      "If something goes wrong, just rewind ",
+      "Unlock all cars",
+      "Don't hit a post",
+      "The sport and muscle car are good cars for drifting",
+      "Only the coolest guys drive in rallies!",
+      "À flip flop, gas to the floor and you are going sideways",
+      "Ram everyone in Derby it's fun",
+      "360 entry!",
+      "Reverse entry!",
+      "The driver is important, not the car",
+      "Give a 5-star review!",
+      "Turn off ads in Elite Store",
+      "Handbrake, turn and you are gliding",
+      "Have a ride!",
+      "Drift!",
+      "Break!",
+      "Aboba",
+      "Buy a zhiguli and be happy",
+      "Buy a hyper-car and be cool guy",
+      "Buy a delorean and Back To the Furure",
+      "Delorean is strong car",
+      "Backward entry!"
+    ],
+    "RateApp": "Rate Game Please",
+    "NoThanks": "No Thanks"
+  },
+  "TrackSelect": {
+    "Unlock": "Unlock",
+    "NoTime": "No score",
+    "Difficulity": "Difficulity",
+    "MoneyRatio": "Payment",
+    "TrackTerms": "Terms",
+    "Record": "Score ",
+    "TrackCost": "Cost",
+    "BuyTrack": "Buy Track",
+    "NoMoney": "No Money",
+    "Sure": "Are you sure?",
+    "Play": "Play",
+    "Back": "Back"
+  },
+  "CarSelect": {
+    "Acceleration": "Acceleration",
+    "MaxSpeed": "Max Speed",
+    "Drift": "Drift",
+    "Cost": "Cost",
+    "Unlock": "Unlock",
+    "BuyCar": "Buy",
+    "NoMoney": "No Money",
+    "Play": "Play",
+    "Color": "Color",
+    "Back": "Back",
+    "HP": "Strength"
+  },
+  "Settings": {
+    "Settings": "Settings",
+    "EffectVol": "Effects",
+    "MusicVol": "Music",
+    "InputTypeName": "Control Type",
+    "InputType": [
+      "Buttons",
+      "Wheel",
+      "Slider"
+    ],
+    "Vibration": "Vibration",
+    "InputSensivity": "Sensitivity",
+    "Language": "Language",
+    "Back": "Back"
+  },
+
+  "Car": [
+    {
+      "Name": "Sedan",
+      "Text": "A simple car, nothing more",
+      "UnlockTerms": ""
+    },
+    {
+      "Name": "Station wagon",
+      "Text": "Useful for transporting a fridge",
+      "UnlockTerms": ""
+    },
+    {
+      "Name": "Smart",
+      "Text": "Ideal for city streets",
+      "UnlockTerms": ""
+    },
+    {
+      "Name": "Offroad",
+      "Text": "A car for rednecks",
+      "UnlockTerms": "Beat the 00.32.00 score on Rally"
+    },
+    {
+      "Name": "Pickup",
+      "Text": "A work horse",
+      "UnlockTerms": "Beat the 00.43.00 score on Rally 2"
+    },
+    {
+      "Name": "Monster bus",
+      "Text": "Beep beep",
+      "UnlockTerms": "Reach stage 4 in Derby"
+    },
+    {
+      "Name": "Sport Car",
+      "Text": "Beatiful, fast, expensive",
+      "UnlockTerms": ""
+    },
+    {
+      "Name": "Rally",
+      "Text": "Fast, real fast!",
+      "UnlockTerms": "Beat the 00.45.00 score on Rally 3"
+    },
+    {
+      "Name": "GT3",
+      "Text": "Serious stuff",
+      "UnlockTerms": "Buy the sport cat first"
+    },
+    {
+      "Name": "70s Formula car",
+      "Text": "Powerful and unwieldy",
+      "UnlockTerms": "First train on Formula 2"
+    },
+    {
+      "Name": "Formula 2",
+      "Text": "Almost Formula 1",
+      "UnlockTerms": "Beat the 00.12.50 score on Track 1"
+    },
+    {
+      "Name": "Formula 1",
+      "Text": "Racing royale!",
+      "UnlockTerms": "Unlock the 70s Formula"
+    },
+    {
+      "Name": "Mercedes",
+      "Text": "You are a succesful dude",
+      "UnlockTerms": ""
+    },
+    {
+      "Name": "Buggy",
+      "Text": "Made with your hands, heart and soul",
+      "UnlockTerms": ""
+    },
+    {
+      "Name": "Limousine",
+      "Text": " A wedding?",
+      "UnlockTerms": ""
+    },
+    {
+      "Name": " Dragster",
+      "Text": "Fast, but very poor handling",
+      "UnlockTerms": "Unlock all special tracks"
+    },
+    {
+      "Name": "Drift car",
+      "Text": "Turn as beatiful as possible",
+      "UnlockTerms": "Get a 10/10 on a Drift Track 3"
+    },
+    {
+      "Name": "BTR",
+      "Text": "USSR)",
+      "UnlockTerms": "Reach the last stage on Derby!"
+    },
+    {
+      "Name": "Muscle car",
+      "Text": "Make a stash of gasoline",
+      "UnlockTerms": "Get a 10/10 on a Drift Track"
+    },
+    {
+      "Name": "Zhiguli",
+      "Text": "Beauty, reliability, coolness",
+      "UnlockTerms": "(x2 money)"
+    },
+    {
+      "Name": "Gyper-car",
+      "Text": "Coolest car ever ",
+      "UnlockTerms": "(x2 money)"
+    },
+    {
+      "Name": "Delorian",
+      "Text": "Max speed is 142km/h ",
+      "UnlockTerms": "(x2 money)"
+    }
+  ],
+  "Track": [
+    {
+      "Name": "Track",
+      "Text": "",
+      "UnlockTerms": ""
+    },
+    {
+      "Name": " Race for survival",
+      "Text": "",
+      "UnlockTerms": ""
+    },
+    {
+      "Name": "Drift track",
+      "Text": "",
+      "UnlockTerms": ""
+    },
+    {
+      "Name": " Free ride",
+      "Text": "Do whatever you want",
+      "UnlockTerms": ""
+    },
+    {
+      "Name": "Derby",
+      "Text": "Destroy or be destroyed",
+      "UnlockTerms": ""
+    },
+    {
+      "Name": "Delivery",
+      "Text": "Deliver as much as possible",
+      "UnlockTerms": ""
+    },
+    {
+      "Name": "Track 2",
+      "Text": "",
+      "UnlockTerms": ""
+    },
+    {
+      "Name": "Rainy track",
+      "Text": "",
+      "UnlockTerms": "Buy Track 2"
+    },
+    {
+      "Name": "A race for survival 2",
+      "Text": "",
+      "UnlockTerms": " Unlock race for survival 1"
+    },
+    {
+      "Name": "Track 3",
+      "Text": "",
+      "UnlockTerms": "Unlock Track 2"
+    },
+    {
+      "Name": "Super Drift",
+      "Text": "Drift beatifully!",
+      "UnlockTerms": "Unlock Drift Car"
+    },
+    {
+      "Name": " Rally",
+      "Text": "",
+      "UnlockTerms": ""
+    },
+    {
+      "Name": "Rally 2",
+      "Text": "",
+      "UnlockTerms": "Unlock Rally 1"
+    },
+    {
+      "Name": "Drift track 2",
+      "Text": "",
+      "UnlockTerms": "Unlock Drift Track 1"
+    },
+    {
+      "Name": "Race for survival 3",
+      "Text": "",
+      "UnlockTerms": "Unlock Race for survival 2"
+    },
+    {
+      "Name": "Rally 3",
+      "Text": "",
+      "UnlockTerms": "Unlcok Rally 2"
+    },
+    {
+      "Name": "Drift track 3",
+      "Text": "",
+      "UnlockTerms": " Unlock Drift track 2"
+    },
+    {
+      "Name": "Track 4",
+      "Text": "",
+      "UnlockTerms": " Unlock Track 3"
+    },
+    {
+      "Name": "Rally 4",
+      "Text": "",
+      "UnlockTerms": "Unlock Rally 3"
+    },
+    {
+      "Name": "Race for survival 4",
+      "Text": "",
+      "UnlockTerms": "Unlock Race for survival 3"
+    },
+    {
+      "Name": "Drift track 4",
+      "Text": "",
+      "UnlockTerms": "Unlock Drift track 3"
+    }
+  ],
+  "Store": [
+    {
+      "Name": "Zhiguli",
+      "Cost": "",
+      "Description": "Hell Car for Hell Driving",
+      "MiniDescription": "(x2 money x2 DRIFT!)"
+    },
+    {
+      "Name": "Hyper car",
+      "Cost": "",
+      "Description": "Hand out cool",
+      "MiniDescription": "(x2 money x2 SPEED OF LIGHT!)"
+    },
+    {
+      "Name": "Delorean",
+      "Cost": "",
+      "Description": "Back to Future!",
+      "MiniDescription": "(x2 money x2 FUNNY TIME!)"
+    },
+    {
+      "Name": "",
+      "Cost": "",
+      "Description": "",
+      "MiniDescription": ""
+    }
+  ],
+  "MainUIText": {
+    "Resume": "Resume",
+    "Restart": "Restart",
+    "TurnMap": "View Track",
+    "MainMenu": "Main Menu",
+
+    "Bonus": "Choose bonus",
+    "Speed": "Speed",
+    "Hp": "Health Points",
+    "Slide": "Drift",
+    "Grid": "Grid",
+
+    "Tip_Brake": "Brake",
+    "Tip_Gaz": "Gaz",
+    "Tip_Pause": "Pause",
+    "Tip_Unwind": "Rewind time",
+    "Tip_Turn": "Turning",
+
+    "NoAds": "Ads Remover",
+
+    "GO": "Let's go!",
+    "GetChance": "Get another chance",
+    "StepBack": "Rewind time",
+    "SetFirstRecord": "Set your First Record",
+    "BrakeYourRecord": "Beat Your Score: ",
+    "YourRecord": "Your Score ",
+
+    "InvalidTime": "Time invalidated",
+    "CarCrushed": "Car crashed",
+    "Survive": "Survive",
+    "DriftScore": "Drift Score",
+    "Lap": "Lap",
+    "Laps": "Laps",
+    "Survived": "Survived",
+    "Done": "Done",
+    "LapTime": "Lap Time",
+    "LapRoditelnuy": "Laps",
+    "LeaveTrack_Die": "If you leave the track you will die",
+    "DrinkStart": "No one will cash in on your insurance",
+    "FreeStart": "Faster faster",
+    "DriftStart": "Beat your score ",
+    "CarBattleWin": "Derby is finished... Here is the money for the wrecked bumper",
+    "WaveNum": [
+      "First Wave| Girls",
+      "Second Wave | A trip to the supermarket",
+      "Third wave | Boomers",
+      "Fourth Wave | School nightmare",
+      "Fifth Wave | Rally band",
+      "Sixth Wave |  Racers",
+      "Seventh Wave | Dragsters",
+      "Eighth Wave | City traffic",
+      "Ninth Wave | Soviet hospitality",
+      "Last Wave | 5 stars bruh"
+    ],
+    "DeliveryStart": "Deliver as fast as possible",
+    "Delivered": "Delivered",
+    "DeliveryEnd": "Great job, you won't get fired "
+  },
+  "StoreUi": {
+    "Buy": "Buy for ",
+    "TakeCar": "Take car",
+    "TakeTrack": "Go Track",
+    "Bought": "Bought",
+    "Restore": "Restore purchases"
+  }
+}   
